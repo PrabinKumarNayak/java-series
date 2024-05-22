@@ -1,0 +1,10 @@
+m1=45;
+m2=85;
+m3=95;
+tsm=m1+m2+m3;
+per=(tsm*100)/300;
+console.log("Mark of first subject=",m1);
+console.log("Mark of second subject=",m3);
+console.log("Mark of third subject=",m2);
+console.log("Secured mark in three subject=",tsm);
+console.log("perentage =",per);
