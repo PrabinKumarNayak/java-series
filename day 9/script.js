@@ -7,3 +7,8 @@ text.addEventListener("input",()=>{
     value = text.value;
 })
 
+add.addEventListener("click", () => {
+    const list = document.createElement("h2")    
+    list.textContent = value
+    header.appendChild(list)
+})
